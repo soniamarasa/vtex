@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "countdown",
+      "countdown.title",
       "list-context.image-list#demo",
       "__fold__.mobile",
       "flex-layout.row#deals",
