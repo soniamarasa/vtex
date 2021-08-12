@@ -4,7 +4,8 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
       "rich-text",
-      "info-card",
+      "info-card#clearance",
+      "info-card#vintage",
       "info-card#button-left",
       "flex-layout.row",
       "slider-layout#home",
@@ -42,21 +43,21 @@
   },
   "rich-text#desktop": {
     "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "text": "# LOJAS PASQUIM \n ### As melhores marcas para a sua casa",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
   },
   "rich-text#mobile": {
     "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+      "text": "### LOJAS PASQUIM \n #### As melhores marcas para a sua casa",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
   },
   "rich-text": {
     "props": {
-      "text": "**ÓTICAS PASQUIM**",
+      "text": "**ESTILO E CONFORTO**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
@@ -67,8 +68,8 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "Coleção verão",
-      "subhead": "Oculos de sol de diversas marcas em promoçao",
+      "headline": "PALETAS",
+      "subhead": "Compre por tons que combine com cada ambiente da sua casa!",
       "callToActionMode": "button",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
@@ -80,8 +81,8 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-      "headline": "Armações",
-      "subhead": "Precisando de óculos de grau? Aqui você encontra armações a partir de R$89,90",
+      "headline": "PALETAS",
+      "subhead": "Compre por tons que combine com cada ambiente da sua casa!",
       "callToActionMode": "link",
       "callToActionText": "Go to collection",
       "textAlignment": "center"
@@ -221,6 +222,31 @@
       },
       "href": "/washer",
       "label": "Check these awesome discounts"
+    }
+  },
+  "info-card#clearance": {
+    "props": {
+      "id": "info-card-clearance",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#vintage": {
+    "props": {
+      "id": "info-card-vintage",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "blockClass": "vintage"
     }
   }
 }
